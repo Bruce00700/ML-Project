@@ -1,5 +1,4 @@
 import streamlit as st
-from sklearn import datasets
 import re
 import numpy as np
 import pandas as pd
