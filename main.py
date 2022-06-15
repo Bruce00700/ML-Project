@@ -1,6 +1,3 @@
-!pip install matplotlib
-!pip install -U scikit-learn
-
 
 import streamlit as st
 from sklearn import datasets
