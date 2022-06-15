@@ -1,9 +1,7 @@
 import streamlit as st
-from sklearn import datasets
 import re
 import numpy as np
 import pandas as pd
-import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn import tree
 
@@ -25,7 +23,7 @@ data = pd.read_csv('malicious_phish.csv')
 count = data.type.value_counts()
 x=count.index
 
-sns.barplot(x=count.index, y=count)
+plt.barplot(x=count.index, y=count)
 plt.xlabel('Types')
 plt.ylabel('Count');
 st.pyplot(plt)
