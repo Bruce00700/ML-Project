@@ -21,7 +21,7 @@ st.title("Detecting Malicious URL")
 
 st.write("The tabular column shows the type of the malicious URLs and the count of malicious URLs present in that dataset")
 
-data = pd.read_csv('malicious_phish.csv')
+data = pd.read_csv('malicious.xlsx')
 count = data.type.value_counts()
 x=count.index
 
