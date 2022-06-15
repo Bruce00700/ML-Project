@@ -1,5 +1,5 @@
-pip install matplotlib
-pip install -U scikit-learn
+!pip install matplotlib
+!pip install -U scikit-learn
 
 
 import streamlit as st
