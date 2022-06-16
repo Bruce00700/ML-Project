@@ -1,4 +1,4 @@
-python -m pip install --upgrade pip
+py get-pip.py
 seaborn 0.11.2
 matplotlib 3.4.3
 pandas 1.3.4
